@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&family=Seymour+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1260px;
+    margin-inline: auto;
+    /* border: 1px solid black; */
+}
+
+.header-section{
+    background-image: url("./assets/asset\ 0.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #404eed;
+    height: 630px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-section{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.logo-section > img{
+    height: 25px;
+}
+.logo-section > span{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav-section{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  
+}
+
+.nav-section li{
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.button-section{
+    display: flex;
+}
+
+.button-section > button{
+    height: 38px;
+    width: 60px;
+    top: 25px;
+    border-radius: 25px;
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.button-section > button:hover{
+    color: #5865f2;
+}
+
+
+
+/* 2nd-header */
+.second-header{
+    height: 555px;
+}
+
+
+.heading1{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Seymour One', sans-serif;
+    width: 800px;
+    margin-inline: auto;  
+    margin-top: 95px;
+}
+
+.para1{
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    width: 750px;
+    line-height: 29px;
+    font-size: 17px;
+    margin-inline: auto;  
+    margin-top: 30px;
+}
+
+.button-section2{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.button-section2 > button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    height: 58px;
+    width: 320px;
+    border-radius: 50px;
+    border-style: none; 
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: #23272a;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #36393f;
+}
+
+.btn1{
+    color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1:hover{
+    color: #5865f2;
+}
+
+.image-section{
+    margin-top: -210px;
+    display: flex;
+}
+
+.img1{
+    margin-left: -360px;
+    margin-top: 43px;
+}
+
+.img2{
+    margin-left: 710px;
+    height: 360px;
+    width: 340px;
+    margin-top: 35px;
+}
+
+
+/* Hero Section. */
+
+/* Main-Box1 */
+.box1-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 630px;
+}
+
+.text-section1 > h2{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+.text-section1 > p{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+
+/* Main-Box2 */
+.main-box2{
+    /* border: 1px solid black; */
+    background-color: #f6f6f6;
+}
+
+.box2-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 630px;
+}
+
+.text-section2 > h2{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+.text-section2 > p{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+
+/* Main-Box3 */
+.box3-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 630px;
+}
+
+.text-section3 > h2{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+.text-section3 > p{
+    width: 420px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+
+/* Main-Box4 */
+.main-box4{
+    background-color: #f6f6f6;
+}
+
+.box4-wrapper{
+    height: 1080px;
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+}
+
+.text-section4{
+    /* display: flex; */
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 130px;
+    width: 1180px;
+}
+
+.text-section4 > h2{
+    font-family: 'Seymour One', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.text-section4 > p{
+    font-family: 'Noto Sans', sans-serif;
+    width: 1060px;
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 35px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 65px;
+}
+
+.img-section4{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 265px;
+    width: 1180px;
+}
+
+.img-section4 > img{
+    width: 1180px;
+}
+
+
+/* Main-Box5 */
+.main-box5{
+    background-color: #f6f6f6;
+}
+
+
+.box5-wrapper{
+    margin-inline: auto;
+    height: 267px;
+    width: 1130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/asset\ 7.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+
+.heading-section{  
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    justify-content: center;
+    width: 420px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -190px;
+}
+
+.last-button{
+    position: absolute;
+    bottom: 115px;
+    width: 300px;
+}
+
+.l-btn{
+    background-color: #5865f2;
+    color: white;
+}
+
+.l-btn:hover{
+    background-color: #7983f5;
+    color: white;
+}
+
+
+
+/* FOOTER STARTING. */
+.footer{
+    height: 543px;
+    /* border: 1px solid white; */
+    background-color: #23272a;
+    color: white;
+}
+
+.footer-wrapper1{
+    width: 1260px;
+    height: 328px;
+    padding-top: 80px;
+    /* margin-top: 80px; */
+}
+
+.footer1{
+    display: flex;
+}
+
+.footer-heading{
+    /* border: 1px solid white; */
+    width: 280px;
+    height: 272px;
+    margin-left: 40px;
+}
+
+.footer-heading > h3{
+    /* border: 1px solid white; */
+    width: 280px;
+    height: 60px;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 25px;
+    color: #5865f2;
+    display: flex;
+    align-items: center;
+}
+
+.line2{
+    margin-top: 24px;
+    /* border: 1px solid white; */
+    width: 280px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.flag{
+    width: 23px;
+    height: 15px;
+}
+
+.arrow{
+    width: 10px;
+    height: 8px;
+}
+
+
+.f-icons{
+    /* border: 1px solid white; */
+    width: 280px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-top: 24px;
+}
+
+.footer-text{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 120px;
+    gap: 20px;
+}
+
+.f-box{
+    /* border: 1px solid white; */
+    width: 180px;
+    height: 288px;
+}
+
+.footer-text li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    line-height: 35px
+}
+
+.footer2{
+    border-top: 2px solid #5865f2;
+    width: 1260px;
+    height: 71px;
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.button-section5 > button{
+    height: 38px;
+    width: 80px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-color: #5865f2;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.button-section5 > button:hover{
+    color: white;
+    background-color: #7983f5;
+}
+
+
+
+
+                    /* Responsive.  */
+    
+@media  screen and (max-width: 768px) {
+    
+    .nav-section{
+        display: none;
+    }
+
+    .header-section{
+        max-width: 765px;
+    }
+}
